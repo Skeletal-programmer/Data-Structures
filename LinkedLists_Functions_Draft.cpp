@@ -26,15 +26,7 @@ void insertAfter(Node* prevNode, int newData)
     return;
   }
   Node* newNode = new Node(newData);
-  if(head == nullptr){
-    head = newNode;
-    return;
-  }
-  Node* temp = head;
-
-  while(temp->next != nullptr) {
-    temp = temp->next;
-  }
+  head-> newNode = newData
 
   
 }
